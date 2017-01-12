@@ -11,4 +11,4 @@ curl -L -o /tmp/rancher.tgz https://github.com/rancher/cli/releases/download/v0.
 # terraform 
 curl -o /tmp/terraform.tgz https://releases.hashicorp.com/terraform/0.8.3/terraform_0.8.3_linux_amd64.zip && \
   unzip /tmp/terraform.tgz && \
-  mv terraform /artifacts/terraform
+  mv terraform artifacts/terraform
